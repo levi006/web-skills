@@ -1,0 +1,14 @@
+h1 {
+     font-family: arial;
+     text-align: center;
+  }
+
+input {
+     background-color: yellow;
+     
+  }
+
+#lastname_input {
+     font-weight: bold;
+     
+  }

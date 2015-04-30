@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>
+            Employee Application Form for Best Job, EVAR. 
+        </h1>
+    <link rel="stylesheet" href="./stylesheet.css">
+    </head>
+    <body>
+        <br>
+            <label>First Name:
+            <input type="text" name="firstname">
+            </label>
+        <br><br>
+            <label>Last Name:
+            <input id="lastname_input" type="text" name="lastname">
+            </label>
+        <br><br>  
+        <label>Required Salary:
+            <input type="text" name="salary">
+            </label>    
+        <form>
+            <br>
+      Open Job Positions:
+        <select name="Open Job Position">
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="QA Engineer"> QA Engineer</option>
+            <option value="Product Manager">Product Manager</option>
+        </select>
+        </form>
+        <br>
+        <form action="/application" method="POST">
+        <input type="submit">
+    </body>
+</html>
